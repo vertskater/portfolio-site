@@ -1,0 +1,8 @@
+@font-face {
+  font-family: "Frederickathe";
+  src: local("FrederickatheGreat"), url("./FrederickatheGreat-Regular.ttf");
+}
+@font-face {
+  font-family: "OpenSans";
+  src: url("./OpenSans-VariableFont_wdth.ttf");
+}

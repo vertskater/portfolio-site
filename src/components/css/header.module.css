@@ -1,0 +1,112 @@
+.header {
+  background-color: #fff;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  font-size: 6vw;
+  padding: 0 20px;
+  font-family: "Frederickathe";
+}
+.header div h1 {
+  background-image: black;
+  background-image: var(--gradient-main);
+  background-size: 100%;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+.subheader {
+  padding-left: 30px;
+  font-size: 6vw;
+  font-family: "Frederickathe";
+}
+.btn_icon {
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+}
+.btn_icon i {
+  margin-left: 10px;
+  cursor: pointer;
+}
+.btn_icon i::before {
+  color: #666;
+  transition: all 0.2s ease-in-out;
+}
+.btn_icon a {
+  color: #666;
+  text-decoration: none;
+}
+.btn_icon a:hover i::before {
+  color: #000;
+}
+button {
+  background: #fff;
+  border: 1px solid #e6e6e6;
+  border-radius: 3px;
+  color: #666;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  outline: none;
+  padding: 12px 60px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
+button:hover {
+  background: #e6e6e6;
+  padding-right: 60px;
+}
+
+header p {
+  opacity: 0;
+  animation: fade-in 0.5s ease-in-out;
+  animation-fill-mode: forwards;
+}
+header h1 {
+  opacity: 0;
+  animation: 0.5s fade-in 0.5s ease-in-out;
+  animation-fill-mode: forwards;
+}
+header span {
+  opacity: 0;
+  animation: 0.5s fade-in 1s ease-in-out;
+  animation-fill-mode: forwards;
+}
+header .btn_icon {
+  opacity: 0;
+  animation: 1s fade-in 1s ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (min-width: 768px) {
+  .header {
+    font-size: 3.5vw;
+    padding: 0 40px;
+  }
+  .subheader {
+    font-size: 3vw;
+  }
+  button {
+    font-size: 24px;
+    width: 400px;
+  }
+  button:hover {
+    padding-right: 0;
+  }
+}

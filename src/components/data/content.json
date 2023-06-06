@@ -1,0 +1,36 @@
+[
+  {
+    "id": "about",
+    "textContent": [
+      {
+        "text": "Hello, I'm Christoph Mitterwallner, a passionate developer with a background in IT and pedagogy. At 37 years old, I bring a wealth of experience and knowledge to the world of web development. Over the years, I have honed my skills and expanded my expertise, making me a versatile and dedicated professional."
+      },
+      {
+        "text": "Education and Work Experience: My journey in the tech industry began when I pursued a degree as an IT-Technician. This educational foundation provided me with a solid understanding of the industry's inner workings. I spent a few years working in the field, gaining valuable hands-on experience and refining my problem-solving abilities."
+      },
+      {
+        "text": "Web Development Journey: Throughout my career and studies, I developed a keen interest in web development. For the past three years, I have been passionately engaged in self-study to enhance my skills in this dynamic field. I have immersed myself in various web technologies, particularly focusing on frontend development."
+      },
+      {
+        "text": " My expertise lies in creating captivating and user-friendly interfaces using frameworks and technologies such as React, JavaScript, and TypeScript. Through numerous smaller projects, I have gained valuable hands-on experience, solidifying my understanding of these tools and best practices. Continuously staying updated with the latest trends and advancements, I am committed to delivering modern and efficient solutions."
+      }
+    ]
+  },
+  {
+    "id": "skills",
+    "icons": [
+      { "icon": "devicon-html5-plain-wordmark colored" },
+      { "icon": "devicon-css3-plain-wordmark colored" },
+      { "icon": "devicon-javascript-plain colored" },
+      { "icon": "devicon-react-original-wordmark colored" },
+      { "icon": "devicon-materialui-plain colored" },
+      { "icon": "devicon-firebase-plain-wordmark colored" },
+      { "icon": "devicon-webpack-plain-wordmark colored" },
+      { "icon": "devicon-git-plain colored" },
+      { "icon": "devicon-jest-plain colored" },
+      { "icon": "devicon-php-plain colored" },
+      { "icon": "devicon-wordpress-plain-wordmark colored" },
+      { "icon": "devicon-typescript-plain colored" }
+    ]
+  }
+]
