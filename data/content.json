@@ -1,0 +1,81 @@
+[
+  {
+    "id": "about",
+    "textContent": [
+      {
+        "text": "Hello, I'm Christoph Mitterwallner, a passionate developer with a background in IT and pedagogy. At 37 years old, I bring a wealth of experience and knowledge to the world of web development. Over the years, I have honed my skills and expanded my expertise, making me a versatile and dedicated professional."
+      },
+      {
+        "text": "Education and Work Experience: My journey in the tech industry began when I pursued a degree as an IT-Technician. This educational foundation provided me with a solid understanding of the industry's inner workings. I spent a few years working in the field, gaining valuable hands-on experience and refining my problem-solving abilities."
+      },
+      {
+        "text": "Web Development Journey: Throughout my career and studies, I developed a keen interest in web development. For the past three years, I have been passionately engaged in self-study to enhance my skills in this dynamic field. I have immersed myself in various web technologies, particularly focusing on frontend development."
+      },
+      {
+        "text": " My expertise lies in creating captivating and user-friendly interfaces using frameworks and technologies such as React, JavaScript, and TypeScript. Through numerous smaller projects, I have gained valuable hands-on experience, solidifying my understanding of these tools and best practices. Continuously staying updated with the latest trends and advancements, I am committed to delivering modern and efficient solutions."
+      }
+    ]
+  },
+  {
+    "id": "skills",
+    "icons": [
+      { "icon": "devicon-html5-plain-wordmark colored" },
+      { "icon": "devicon-css3-plain-wordmark colored" },
+      { "icon": "devicon-javascript-plain colored" },
+      { "icon": "devicon-react-original-wordmark colored" },
+      { "icon": "devicon-materialui-plain colored" },
+      { "icon": "devicon-firebase-plain-wordmark colored" },
+      { "icon": "devicon-webpack-plain-wordmark colored" },
+      { "icon": "devicon-git-plain colored" },
+      { "icon": "devicon-jest-plain colored" },
+      { "icon": "devicon-php-plain colored" },
+      { "icon": "devicon-wordpress-plain-wordmark colored" },
+      { "icon": "devicon-typescript-plain colored" }
+    ]
+  },
+  {
+    "id": "projects",
+    "projects": [
+      {
+        "id": "1",
+        "title": "Weather App",
+        "description": "A weather app that shows the current weather. The app uses the OpenWeatherMap API to fetch the weather data. The user can search for a city and the app will display the current weather for that city.",
+        "image": "weather-app.png",
+        "link": "https://vertskater.github.io/weatherapp/",
+        "github": "https://github.com/vertskater/weatherapp"
+      },
+      {
+        "id": "2",
+        "title": "Dashboard - CSS Grid",
+        "description": "A dashboard created with CSS Grid. The dashboard is responsive and uses CSS Grid to create the layout.",
+        "image": "dashboard.png",
+        "link": "https://vertskater.github.io/dashboard/",
+        "github": "https://github.com/vertskater/dashboard"
+      },
+      {
+        "id": "3",
+        "title": "React Bookshelf",
+        "description": "A bookshelf app created with React. The app uses the Google Firebase to save Books. The user can search for books and add them to the bookshelf. The user can also delete books from the bookshelf and there is a login possibility with Google.",
+        "image": "bookshelf.png",
+        "link": "https://bookshelf-9df37.firebaseapp.com/",
+        "github": "https://github.com/vertskater/bookshelf-fs"
+      },
+      {
+        "id": "4",
+        "title": "Where's Waldo",
+        "description": "A Where's Waldo game created with React. The app uses the Google Firebase to save the highscores. The user can play the game and try to find Waldo. The user can also add a highscore to the highscore list.",
+        "image": "waldo.png",
+        "link": "https://waldo-314a7.firebaseapp.com/",
+        "github": "https://github.com/vertskater/find-waldo"
+      },
+      {
+        "id": "5",
+        "title": "React Shopping Cart",
+        "description": "A shopping cart created with React. The user can search for products, add them to the cart and delete or edit items. The app uses react router to shor single products and the cart.",
+        "image": "shopping-cart.png",
+        "link": "https://vertskater.github.io/shopping-cart/",
+        "github": "https://github.com/vertskater/shopping-cart"
+      }
+    ]
+  }
+]
