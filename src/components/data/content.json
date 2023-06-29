@@ -32,5 +32,42 @@
       { "icon": "devicon-wordpress-plain-wordmark colored" },
       { "icon": "devicon-typescript-plain colored" }
     ]
+  },
+  {
+    "id": "projects",
+    "projects": [
+      {
+        "id": "1",
+        "title": "Weather App",
+        "description": "A weather app that shows the current weather. The app uses the OpenWeatherMap API to fetch the weather data. The user can search for a city and the app will display the current weather for that city.",
+        "image": "weather-app.png",
+        "link": "https://vertskater.github.io/weatherapp/",
+        "github": "https://github.com/vertskater/weatherapp"
+      },
+      {
+        "id": "2",
+        "title": "Dashboard - CSS Grid",
+        "description": "A dashboard created with CSS Grid. The dashboard is responsive and uses CSS Grid to create the layout.",
+        "image": "dashboard.png",
+        "link": "https://vertskater.github.io/dashboard/",
+        "github": "https://github.com/vertskater/dashboard"
+      },
+      {
+        "id": "3",
+        "title": "React Bookshelf",
+        "description": "A bookshelf app created with React. The app uses the Google Firebase to save Books. The user can search for books and add them to the bookshelf. The user can also delete books from the bookshelf and there is a login possibility with Google.",
+        "image": "bookshelf.png",
+        "link": "https://bookshelf-9df37.firebaseapp.com/",
+        "github": "https://github.com/vertskater/bookshelf-fs"
+      },
+      {
+        "id": "4",
+        "title": "Where's Waldo",
+        "description": "A Where's Waldo game created with React. The app uses the Google Firebase to save the highscores. The user can play the game and try to find Waldo. The user can also add a highscore to the highscore list.",
+        "image": "waldo.png",
+        "link": "https://waldo-314a7.firebaseapp.com/",
+        "github": "https://github.com/vertskater/find-waldo"
+      }
+    ]
   }
 ]

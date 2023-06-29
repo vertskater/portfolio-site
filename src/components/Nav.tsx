@@ -1,9 +1,10 @@
 import { NavLink, Outlet } from "react-router-dom";
+import styles from "./css/nav.module.css";
 
 export default function Nav() {
   return (
     <>
-      <nav>
+      <nav className={styles.nav}>
         <ul>
           <li>
             <NavLink to="/" end>

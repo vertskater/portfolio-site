@@ -1,10 +1,7 @@
 import { useState, useEffect } from "react";
 import styles from "./css/about.module.css";
 import data from "./data/content.json";
-
-interface TextContent {
-  [key: string]: string;
-}
+import TextContent from "../ITextContent";
 
 export default function About() {
   const sectionAboutMe = { style: styles.about };
