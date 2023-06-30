@@ -1,6 +1,5 @@
-import React from "react";
-import RouteSwitch from "./RouteSwitch";
 import Nav from "./components/Nav";
+import { HashRouter } from "react-router-dom";
 import "./App.css";
 
 function App() {
