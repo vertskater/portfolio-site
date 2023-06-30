@@ -1,20 +1,22 @@
 import { useState, useEffect } from "react";
 import styles from "./css/about.module.css";
-import data from "./data/content.json";
+//import data from "./data/content.json";
 import TextContent from "../ITextContent";
+import useContent from "./data/useContent";
 
 export default function About() {
   const sectionAboutMe = { style: styles.about };
   const techStack = { style: styles.techStack };
   const [content, setContent] = useState<TextContent[]>([]);
   const [skills, setSkills] = useState<{ icon: string }[]>([]);
+  const data = useContent();
 
   useEffect(() => {
     const siteText = data.find((item) => item.id === "about");
     const skillIcons = data.find((item) => item.id === "skills");
     if (siteText) setContent(siteText.textContent as TextContent[]);
     if (skillIcons) setSkills(skillIcons.icons as { icon: string }[]);
-  }, []);
+  }, [data]);
 
   return (
     <>

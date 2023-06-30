@@ -2,7 +2,7 @@ import styles from "./css/header.module.css";
 import { NavLink } from "react-router-dom";
 
 export default function Header() {
-  const bgImgUrl = process.env.PUBLIC_URL + "./img/profile-pic.jpg";
+  const bgImgUrl = process.env.PUBLIC_URL + "/img/profile-pic.jpg";
   const bgImg = {
     backgroundImage: `url(${bgImgUrl})`,
     backgroundSize: "auto 100%",

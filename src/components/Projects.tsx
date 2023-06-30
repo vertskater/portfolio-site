@@ -1,16 +1,18 @@
-import data from "./data/content.json";
+//import data from "./data/content.json";
+import useContent from "./data/useContent";
 import { useState, useEffect } from "react";
 import TextContent from "../ITextContent";
 import styles from "./css/projects.module.css";
 
 export default function Projects() {
+  const data = useContent();
   const imgUrl = process.env.PUBLIC_URL;
   const [projects, setProjects] = useState<TextContent[]>([]);
   useEffect(() => {
     const content = data.find((item) => item.id === "projects");
     if (content) setProjects(content.projects as TextContent[]);
-  }, []);
-  console.log(imgUrl);
+  }, [data]);
+
   return (
     <>
       <section className={styles.container}>
