@@ -34,7 +34,7 @@ export default function Projects() {
                     <i className="devicon-github-original-wordmark colored"></i>
                   </a>
                   <a href={project.link} target="_blank">
-                    Live Preview
+                    {project.link ? "Live Preview" : ''}
                   </a>
                 </div>
               </div>
