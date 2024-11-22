@@ -18,9 +18,7 @@ export default function Header() {
         <span className={styles.subheader}>Webdeveloper</span>
       </div>
       <div className={styles.btn_icon}>
-        <button>
           <NavLink to="/projects">See my Projects</NavLink>
-        </button>
         <a href="https://github.com/vertskater" target="_blank">
           <i className="devicon-github-original colored"></i>
         </a>
